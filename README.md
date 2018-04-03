@@ -1,0 +1,1 @@
+# week6-giphy-API-and-AJAX
