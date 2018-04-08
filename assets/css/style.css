@@ -1,15 +1,18 @@
-body {
-    background-color: cyan;
-    width: 100%;
+html, body {
     height: 100%;
 }
+.container-fluid {
+    background-color: silver;
+    height: 100%;
+
+}
 #giphyWordDisplay {
-width: 100%;
-text-align: center;
-height: auto;
+text-align: left;
+height: 100px;
 }
 #outputContainer {
     height: auto;
+    
 }
 #giphyWord {
     background-color: white;
@@ -27,5 +30,10 @@ height: 100px;
     background-color: gray;
     border: 2px solid cyan;
     color: white;
+}
+.footer {
+    float: bottom;
+    position: absolute;
+    bottom: 0;
 }
 
